@@ -3,6 +3,9 @@ body{
     font-family: 'Lato' , sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.text-primary{
+   color: #E55473;
+}
 .btn-primary{
     border-radius: 10px;
     background: #E55473;
@@ -14,7 +17,7 @@ padding: 15px 30px;
 }
 .section-title{
     color: #272727;
-font-size: 40px;
+font-size: 20px;
 font-weight: 800;
 }
 .section-description{
@@ -49,12 +52,43 @@ margin-bottom: 0px;
 font-size: 15px;
 font-weight: 400;
 margin-top: 30px;
+justify-content: center;
 }
 .button{
     margin-top: 30px;
 }
 
 /* main section styles */
+/* category section styles */
+.category-text{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 15px;
+text-decoration-line: underline;
+display: flex;
+}
+.categories{
+
+}
+  
+.photos{
+    display: flex;
+    margin: 50px 100px ;
+}
+#img1{
+    background: rgba(167, 33, 98, 0.15);
+    border-radius:  200px 200px 0px 0px;
+}
+#img2{
+    background: rgba(5, 151, 160, 0.15);
+    border-radius:  200px 200px 0px 0px;
+}
+#img3{
+    background: rgba(71, 125, 17, 0.15);
+    border-radius:  200px 200px 0px 0px;
+}
 /* about section styles */
 .about{
     padding: 130px 500px;
@@ -80,5 +114,28 @@ margin-top: 30px;
     font-size: 15px;
     font-weight: 600;
     padding: 15px 20px 40px 30px;
+}
+/* sub-banner related styles */
+.sub-banner-title{
+    color: #272727;
+font-size: 70px;
+font-weight: 800;
+justify-content: center;
+}
+.sb{
+    background-color: rgba(229, 84, 115, 0.1);
+    background-size: 400px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 100px;
+}
+.banner-pic{
+    width: 180px;
+    height: 250px;
+}
+#center-btn-primary.btn-primary{
+    text-align: center;
 }
     
