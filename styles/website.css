@@ -12,6 +12,16 @@ font-size: 15px;
 font-weight: 700;
 padding: 15px 30px;
 }
+.section-title{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 15px;
+font-weight: 400;
+}
 /* header related styles */
 .header{
     background-color: rgba(229, 84, 115, 0.1);
@@ -42,4 +52,14 @@ margin-top: 30px;
 }
 .button{
     margin-top: 30px;
+}
+
+/* main section styles */
+/* about section styles */
+.about{
+    padding: 130px 500px;
+    border-radius: 10px;
+    background-color: #FFF;
+    text-align: center;
+    margin-bottom: 20px;
 }
