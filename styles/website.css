@@ -60,31 +60,38 @@ justify-content: center;
 
 /* main section styles */
 /* category section styles */
-.category-text{
+.photo-caption{
     color: #272727;
 text-align: center;
-font-size: 24px;
+font-size: 20px;
 font-weight: 700;
-line-height: 15px;
+line-height: 32px;
 text-decoration-line: underline;
 display: flex;
+justify-content: center;
+list-style: none;
+margin-top: 20px;
+margin: auto;
+gap: 200px;
 }
   
 .photos{
     display: flex;
-    margin: 50px 100px ;
+    gap: 25px;
+    margin: auto;
+    justify-content: center;
 }
-#img1{
+#img1 {
     background: rgba(167, 33, 98, 0.15);
     border-radius:  200px 200px 0px 0px;
 }
-#img2{
+#img2 {
     background: rgba(5, 151, 160, 0.15);
     border-radius:  200px 200px 0px 0px;
 }
-#img3{
+#img3 {
     background: rgba(71, 125, 17, 0.15);
-    border-radius:  200px 200px 0px 0px;
+    border-radius : 200px 200px 0px 0px;
 }
 /* about section styles */
 .about{
@@ -158,4 +165,9 @@ justify-content: center;
     display: inline-block;
     justify-content: center;
     
+}
+/* footer related style */
+/*submission related styles */
+.backimg{ 
+background-image: url('flower asset/rectangle 9.png');
 }
