@@ -135,7 +135,11 @@ justify-content: center;
     width: 180px;
     height: 250px;
 }
-#center-btn-primary.btn-primary{
+/* instagram related styles */
+.instagram{
+    padding: 130px 500px;
+    border-radius: 10px;
+    background-color: #FFF;
     text-align: center;
-}
-    
+    margin-bottom: 20px;
+} 
