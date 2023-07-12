@@ -170,7 +170,7 @@ margin: auto;
     background-color: #FFF;
     align-items: center;
     justify-content: center;
-    padding: 100px 20px 60px 400px;
+    padding:400px;
     margin: auto; 
 }
 .flower{
@@ -180,6 +180,35 @@ margin: auto;
     display: inline-block;
     align-items: center;
     justify-content: center;
+}
+/* order form related styles */
+.order-form{
+    background-color: antiquewhite;
+    margin:300px 200px 300px 200px;
+    padding: 230px;
+    justify-content: space-between;
+}
+.form-title{
+    color: brown;
+    font-weight:800;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.order-button{
+    text-align: center;
+    margin-top: 50px;
+}
+.information{
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+}
+
+.form-control{
+    display: block;
+    margin-bottom: 20px;
 }
 /* footer related style */
 .last{
