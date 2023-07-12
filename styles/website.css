@@ -210,6 +210,39 @@ margin: auto;
     display: block;
     margin-bottom: 20px;
 }
+/* offer section styles */
+.offer{
+    background-image: url('../flowerasset/rectangle-9.png');
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
+    }
+.offer-text{
+    text-align: center;
+}
+.offer-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+padding-top: 100px;
+}
+.offer-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+input[type=email] {
+    border-radius: 2px;
+background: #FFF;
+box-sizing: border-box;
+padding: 13px 30px;
+margin: 2px 2px 2px 2px;
+width: 50%;
+}
 /* footer related style */
 .last{
    background: #111010;
