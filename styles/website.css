@@ -69,17 +69,16 @@ line-height: 32px;
 text-decoration-line: underline;
 display: flex;
 justify-content: center;
-list-style: none;
 margin-top: 20px;
 margin: auto;
 gap: 200px;
-}
-  
+}  
 .photos{
     display: flex;
     gap: 25px;
     margin: auto;
     justify-content: center;
+    
 }
 #img1 {
     background: rgba(167, 33, 98, 0.15);
@@ -120,11 +119,22 @@ gap: 200px;
     padding: 15px 20px 40px 30px;
 }
 /* sub-banner related styles */
+.sub-banner{
+    text-align: center;
+}
 .sub-banner-title{
     color: #272727;
 font-size: 70px;
 font-weight: 800;
 justify-content: center;
+}
+.sub-banner-description{
+justify-content: center;
+text-align: center ;
+color: rgba(39, 39, 39, 0.60);
+font-size: 15px;
+font-weight: 400;
+margin-top: 30px;
 }
 .sb{
     background-color: rgba(229, 84, 115, 0.1);
@@ -148,7 +158,11 @@ justify-content: center;
     margin-bottom: 20px;
 } 
 /* flower list related styles */
-
+.social-site{
+justify-content: center;
+align-items: center;
+margin: auto;
+}
 .flower-container{
     display: flex;
     flex-wrap: wrap;
@@ -156,18 +170,39 @@ justify-content: center;
     background-color: #FFF;
     align-items: center;
     justify-content: center;
-    padding: 100px 20px 60px 400px; 
+    padding: 100px 20px 60px 400px;
+    margin: auto; 
 }
 .flower{
     padding: 2px 2px 2px;
     background-color: #FFF;
     margin: 10px;
     display: inline-block;
+    align-items: center;
     justify-content: center;
-    
 }
 /* footer related style */
-/*submission related styles */
-.backimg{ 
-background-image: url('flower asset/rectangle 9.png');
+.last{
+   background: #111010;
+   padding: 130px 200px;
+   margin-top:100px ;
+}
+.footer-title{
+color: #FFF;
+font-size: 30px;
+font-weight: 800;
+text-align: center;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-security{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
 }
